@@ -1,3 +1,5 @@
 def roll
- puts "rand(1...6)"
-end
+ puts lower_limit = 1
+upper_limit = 6
+Random.new.rand(lower_limit..upper_limit)
+ end
